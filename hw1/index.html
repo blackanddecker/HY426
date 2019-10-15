@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<title>Vangelis Foufikos</title>
+	</head>
+	<body>
+		<div class="jumbotron text-center" style="margin-bottom:0">
+			<h1>Vangelis Foufikos</h1>
+		</div>
+		<nav class="navbar navbar-expand-sm bg-success navbar-light">
+				<div class="navbar" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Studies</a>
+				</li> 
+				<li class="nav-item">
+					<a class="nav-link" href="hobbies.html">Hobbies</a>
+				</li>     
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>    
+				</ul>
+			</div>  
+		</nav>
+		<div class="row">
+
+			<div class="col-sm-4">
+					<img src="images/profile.jpeg" alt="Profile" height="250">
+			</div>
+
+			<div class="col-sm-6">
+				<center>Graduation Progress <p></p></center>
+				<nav>
+					<div class="progress">
+						<div class="progress-bar" style="width:93%"> 93%</div>
+					</div> 
+				</nav>
+				<div class="Subjects">
+					<ul class="list-group">
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						Current Subjects
+						<span class="badge badge-primary badge-pill">2</span>
+						</li>
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						Passed
+						<span class="badge badge-primary badge-pill">42</span>
+						</li>
+						<li class="list-group-item d-flex justify-content-between align-items-center">
+						Failed
+						<span class="badge badge-primary badge-pill">1</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">			
+			<div class="col-sm-4"></div>
+			<div class="col-sm-6">
+				<style>
+					.nav-tabs li a {
+						color: #777;
+					}
+					</style>
+				<p></p>
+				<h3 class="text-center">   Projects</h3>  
+				<ul class="nav nav-tabs">
+					
+					<li class="active">
+						<a data-toggle="tab" href="#home">
+							____NFS System____ </a>
+					</li>
+					<li>
+						<a data-toggle="tab" href="#menu1">
+								|____Group Communication____ </a>
+					</li>
+					<li>
+						<a data-toggle="tab" href="#menu2">
+								|____One-way FIFO____</a>
+					</li>
+				</ul>
+				
+				<div class="tab-content">
+					<div id="home" class="tab-pane fade in active">
+					<br>A simple NFS that allowing a user on a client computer to access files, 
+					over a computer network, from a server. 
+					A file must be accessed in a transparent way through intermediary 
+					software that provides the application with appropriate functionality 
+					( open , read , write , close , seek ) .
+					Implementation is over UDP/IP.
+					</div>
+					
+					
+					<div id="menu1" class="tab-pane fade">
+					<br>Developed a group communication software that provides reliable total 
+					group multicast. 
+					The software offers the commands : join , leave , send , receive. 
+					</div>
+					
+					
+					<div id="menu2" class="tab-pane fade">
+					<br>Designed a reliable data transmission protocol and develop 
+					corresponding software to support it
+					functionality of a reliable one-way FIFO pipe over UDP / IP. 
+					The protocol includes an appropriate packet relay mechanism and flow control,
+					so to reduce "unnecessary" shipments of packages.
+					</div>
+				</div>
+
+
+
+
+
+
+			</div>			
+		</div>
+	</body>
+</html>
